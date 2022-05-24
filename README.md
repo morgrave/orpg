@@ -196,3 +196,11 @@ github에 들어가서 토큰이란 놈을 발급받는다. https://hoohaha.tist
 여기까지 성공한 사람이 있으면 다음은 로그를 여러 개 집어넣거나 로그에 이미지나 음악을 집어넣거나 해보자
 
 `orpg\src\app\shared\models\campaigns.model.ts` 를 열어서 대충 어떻게 돌아가는지 보고 만지작거려도 됨
+
+이미지 넣고 싶은 사람 있으면 예제 참고해가면서 `orpg\src\campaigns\TEST` 에 있는 내용물을 입맛대로 바꿔보자.
+
+이미지 넣을 때 어느 채팅에 해당되는 이미지인지 id를 적어넣어야 하는데
+
+`orpg\src\environments\environment.ts` 에서 `debug: false,` 를 `debug: true,` 로 바꾸면 롤20 로그에서 data-messageid 를 복사할 수 있는 버튼이 나온다.
+
+여기까지 따라오는 거 성공한 사람은 댓글 남겨주면 이미지 넣는 가이드도 마저 써볼게.
