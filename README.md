@@ -36,7 +36,7 @@ https://github.com/morgrave/orpg 에 들어간 뒤 위에서 만든 github 아�
 
 ![짤](https://raw.githubusercontent.com/morgrave/orpg/master/src/docs/3.jpg)
 
-복사된 저장소의 초록색 Code 버튼을 눌러서 주소를 복사한다.
+복사된 저장소의 초록색 Code 버튼을 눌러서 주소를 복사한다. 빨간색으로 칠해진 부분이 morgrave가 아니라 너의 아이디여야 한다.
 
 ![짤](https://raw.githubusercontent.com/morgrave/orpg/master/src/docs/4.jpg)
 
@@ -46,7 +46,7 @@ https://github.com/morgrave/orpg 에 들어간 뒤 위에서 만든 github 아�
 
 (깃헙회원가입한아이디) 그대로 적지 말고 깃헙 아이디를 적자. 깃헙 아이디가 trpggallery이면 `git clone https://github.com/trpggallery/orpg.git` 이 되겠지?
 
-이러면 로그저장소 폴더가 다운받아진다.
+`git clone` 쓰고 띄어쓰고 나서 방금 복사한 걸 붙여넣고 엔터 치면 로그저장소 폴더가 다운받아진다.
 
 ---
 
