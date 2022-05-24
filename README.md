@@ -128,13 +128,13 @@ https://github.com/morgrave/orpg 에 들어간 뒤 위에서 만든 github 아�
 
 ## 롤20 로그 집어넣기
 
-(https://raw.githubusercontent.com/morgrave/orpg/master/src/docs/10.jpg)
+![짤](https://raw.githubusercontent.com/morgrave/orpg/master/src/docs/10.jpg)
 
 크롬으로 롤20 들어가서 채팅창 맨위에 보이는 "이 게임의 모든 채팅 내용 보기"
 
 들어가서 "한 페이지로 보기"
 
-(https://raw.githubusercontent.com/morgrave/orpg/master/src/docs/11.jpg)
+![짤](https://raw.githubusercontent.com/morgrave/orpg/master/src/docs/11.jpg)
 
 이 다음이 좀 어려운데 크롬에서 F12를 누르면 나오는 창에서 Element 를 누르고
 
