@@ -1,39 +1,14 @@
-export interface Campaign {
-  title: string;
-  label: string;
-  platform: string;
-  npcs: NPC[];
-  logs: Log[];
-}
-
-export interface NPC {
-  name: string;
-  avatar: string;
-}
-
-export interface Log {
-  index: string;
-  name: string;
-  images?: Image[];
-  interfaces?: Image[];
-}
-
-export interface Image {
-  id: string;
-  file: string;
-}
-
 export const Campaigns = [
   {
-    title: 'TEST',
-    label: '로그 저장 예시들',
-    platform: 'roll20',
+    title: 'TEST', // orpg\src\campaigns에서 세션 로그가 들어있는 폴더 이름
+    label: '로그 저장 예시들', // 저장소에서 표시할 캠페인 이름
+    platform: 'roll20', // 롤20이면 "roll20", FVTT면 "FVTT"
     npcs: [
     ],
     logs: [
       {
-        index: '1',
-        name: '초급: 텍스트만 있는 로그 예시',
+        index: '1', // orpg\src\campaigns\TEST\logs 폴더 내에 있는 html 파일 이름
+        name: '초급: 텍스트만 있는 로그 예시', // 저장소에서 표시할 파일 이름
         images: [
         ],
         interfaces: [
@@ -44,7 +19,7 @@ export const Campaigns = [
         name: '중급: 이미지들이 있는 로그 예시',
         images: [
           {
-            id: `-MmCF5jLjv067KaP9ySe`,
+            id: `-MmCF5jLjv067KaP9ySe`, // 롤20 로그 html에서 data-messageid 부분이다. 그 아래로 내려갈 시 아래에 적힌 이름의 이미지로 바뀐다.
             file: '0.jpg',
           },
           {
@@ -702,3 +677,28 @@ export const Campaigns = [
     ]
   },
 ];
+
+export interface Campaign {
+  title: string;
+  label: string;
+  platform: string;
+  npcs: NPC[];
+  logs: Log[];
+}
+
+export interface NPC {
+  name: string;
+  avatar: string;
+}
+
+export interface Log {
+  index: string;
+  name: string;
+  images?: Image[];
+  interfaces?: Image[];
+}
+
+export interface Image {
+  id: string;
+  file: string;
+}

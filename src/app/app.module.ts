@@ -7,7 +7,6 @@ import { ClarityModule } from '@clr/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewerModule } from './viewer/viewer.module';
-import { HelperModule } from './helper/helper.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { SharedModule } from './shared/shared.module';
     HttpClientModule,
     SharedModule,
     ViewerModule,
-    HelperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
