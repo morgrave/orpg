@@ -5,7 +5,7 @@
 - github 회원가입
 - git 설치 https://git-scm.com/download/
 - Visual Studio Code 설치 https://code.visualstudio.com/
-- node 설치 https://nodejs.org/ko/download/
+- node 설치 https://nodejs.org/ko/download/ 18버전으로 설치 파일을 다운받아서 설치하자
 
 ---
 ## 이 저장소를 복사한다
@@ -19,16 +19,6 @@ https://github.com/morgrave/orpg 에 들어간 뒤 위에서 만든 github 아�
 ![짤](https://raw.githubusercontent.com/morgrave/orpg/master/src/docs/1.jpg)
 
 위 순서대로 눌러서 너만의 저장소에 들어간다.
-
----
-
-## 복사한 뒤 저장소 설정
-
-![짤](https://raw.githubusercontent.com/morgrave/orpg/master/src/docs/2.jpg)
-
-복사한 저장소 페이지에서 Settings 찾아서 누르고 왼쪽 바에서 Pages를 찾는다.
-
-오른쪽 Source가 None로 되어있으면 gh-pages로 바꾸고 Save한다.
 
 ---
 
@@ -184,6 +174,18 @@ github에 들어가서 토큰이란 놈을 발급받는다. https://hoohaha.tist
 `git push origin master`
 
 이 세 줄만 해주면 된다.
+
+---
+
+## git push 하고 나서 딱 한번만!! 이거 해줘
+
+![짤](https://raw.githubusercontent.com/morgrave/orpg/master/src/docs/2.jpg)
+
+복사한 저장소 페이지에서 Settings 찾아서 누르고 왼쪽 바에서 Pages를 찾는다.
+
+오른쪽 Source가 None로 되어있으면 gh-pages로 바꾸고 Save한다.
+
+git push 하고 나서 10분~15분쯤 지나야 저게 나올테니 천천히 해주면 됨.
 
 ---
 
