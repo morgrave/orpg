@@ -58,13 +58,7 @@ https://github.com/morgrave/orpg 에 들어간 뒤 위에서 만든 github 아�
 
 쓰고 엔터
 
-기다렸다가
-
-`npm i -g @angular/cli`
-
-쓰고 엔터
-
-다 끝나면
+기다렸다가 다 끝나면
 
 `ng serve`
 
